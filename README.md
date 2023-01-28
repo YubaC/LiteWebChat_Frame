@@ -232,7 +232,7 @@ Example:
 
 | 组件（HTML标签）            | 是否必备 | 类名                                                  | 备注                                                                                              |
 | --------------------------- | -------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
-| 文字输入框（&lt;textarea>） | 是       | chatinput                                             | Class：lite-chatinput内只能存在一个textarea标签                                                   |
+| 文字输入框（&lt;div>） | 是       | chatinput                                             | Class：lite-chatinput内只能存在一个textarea标签                                                   |
 | 发送按钮（&lt;button>）     | 是       | send                                                  | Class：lite-chatinput内只能存在一个发送按钮                                                       |
 | 分界线（&lt;hr>）           | 是       | boundary                                              | 充当输入框和对话框之间的分界线                                                                    |
 | 工具栏按钮（&lt;button>）   | 否       | tool-button（必选）、float-right/float-left（二选一） | 用于充当表情按钮等工具栏控件，类名float-left 和 类名float-right 决定其对齐方式（左对齐/右对齐）。 |
